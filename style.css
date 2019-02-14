@@ -1,8 +1,10 @@
 header{
-    border-bottom: 5px;
-    color: green
+    border-bottom: 5px solid green;
 }
 
 h1{
     font-size: 20px;
+}
+div{
+    border: 5px solid red;
 }
