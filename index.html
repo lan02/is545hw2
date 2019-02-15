@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header> <h1>Luong, Lan</h1> </header>
-    <h1>Welcome to IS545 Homework 2</h1>
-    <div><img src="images/Matcha-Icecream.jpg" alt="Matcha-Icecream"></div>
-    <main>
-        <div class="AboutMe">
-            <p>About Me</p>
-            <div>
-                <p>Education</p>
-                <p>Skills</p>
-                <ol>
-                    <li><p>Web programming: node.js, HTML, CSS</p></li>
-                    <li><p>Python</p></li>
-                </ol>
-                <p>Expectation for this course</p>
-            </div>
-        </div>
-        <div class="ContactMe">
-            <p>Contact Me</p>
-        </div>
-    </main>
+    <div class="container">
+        <header> <h1>Luong, Lan</h1> </header>
+        <h1>Welcome to IS545 Homework 2</h1>
+        <div><img src="images/Matcha-Icecream.jpg" alt="Matcha-Icecream"></div>
+        <aside class="AboutMe">About Me
+            <article class="AboutMe1">
+                <h2>Education</h2>
+                <h2>Skills</h2>
+                    <ol>
+                        <li><p>Web programming: node.js, HTML, CSS</p></li>
+                        <li><p>Python</p></li>
+                    </ol>
+                <h2>Expectation for this course</h2>
+            </article>
+        </aside>
+        <aside class="ContactMe">Contact Me
+            <form>
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="email"><br>
+                Message:<br>
+                <input type="text" name="message"><br>
+                <input type="submit" value="Send your message">
+            </form>
+        </aside>
+    </div> 
 </body>
 </html>
