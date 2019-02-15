@@ -5,6 +5,9 @@ header{
 h1{
     font-size: 20px;
 }
-main{
+.AboutMe {
     border: 5px solid red;
+}
+.ContactMe{
+    border: 5px solid red
 }
