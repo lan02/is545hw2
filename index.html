@@ -22,21 +22,29 @@
                     <li><p>Python</p></li>
                 </ol>
             </article>
-            <h3>Expectation for this course</h3>
+            <h4 class="expectation">Expectation for this course</h4>
                 <article>
                     Testing
                 </article>
         </aside>
         <aside class="ContactMe">Contact Me
             <form>
-                Name:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="email"><br>
-                Message:<br>
-                <input type="text" name="message" class="message"><br>
-                <input type="submit" value="Send your message">
-            </form>
+                <div>
+                  <label for="name">Name:</label><br>
+                  <input type="text" id="name" name="user_name"><br>
+                </div>
+                <div>
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="mail" name="user_mail"><br>
+                </div>
+                <div>
+                  <label for="msg">Message:</label><br>
+                  <textarea id="msg" name="user_message"></textarea><br>
+                </div>
+                <div>
+                    <input type="submit" value="Send your message">
+                </div>
+              </form>
         </aside>
     </div> 
 </body>
