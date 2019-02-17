@@ -1,13 +1,88 @@
-header{
-    border-bottom: 5px solid green;
+html {
+    min-width: 900px;
 }
 
-h1{
-    font-size: 20px;
+header {
+    text-align: center;
+    border-bottom: 5px solid green;
+    width: 600px;
+    margin: 1% 15% 1% 15%;
 }
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.icecream {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
 .AboutMe {
     border: 5px solid red;
+    padding: 10px;
+    width: 45%;
 }
-.ContactMe{
-    border: 5px solid red
+
+.ContactMe {
+    border: 5px solid red;
+    padding: 10px;
+    width: 45%;
+}
+
+h3 {
+    font-size: 15px;
+    font-style: italic; 
+    text-decoration: underline;
+    text-underline-position: below; 
+    text-align: left;
+    height: 0;
+}
+
+article {
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+form {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 4%;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 50%;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+form input.message[type=text] {
+    padding: 40px 20px;
+}
+
+
+input[type=submit] {
+    align-items: center;
+    margin: 30px;
+}
+
+@media all and (max-width: 600px) {
+    .ContactMe {
+        flex-direction: column;
+    }
 }
