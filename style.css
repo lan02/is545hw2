@@ -1,6 +1,9 @@
 @media all and (min-width: 900px) {
-    aside {
-        flex: 2 0;
+    .AboutMe {
+        order: 1;
+    }
+    .ContactMe {
+        order: 2;
     }
 }
 
@@ -30,13 +33,13 @@ h2 {
 .AboutMe {
     border: 5px solid rgb(187, 0, 0);
     padding: 10px;
-    width: 50%;
+    width: 45%;
 }
 
 .ContactMe {
     border: 5px solid rgb(187, 0, 0);
     padding: 10px;
-    width: 50%;
+    width: 45%;
 }
 
 h3 {
@@ -73,8 +76,14 @@ h4 {
 }
 
 @media all and (min-width: 600px) {
-    aside {
-        flex: 2 0;
+    .AboutMe {
+        flex: 1 0;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .ContactMe {
+        flex: 1 0;
     }
 }
 
