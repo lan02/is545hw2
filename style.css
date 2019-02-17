@@ -1,3 +1,7 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 @media all and (min-width: 900px) {
     .AboutMe {
         order: 1;
@@ -9,20 +13,22 @@
 
 header {
     text-align: center;
-    border-bottom: 5px solid green;
-    width: 600px;
-    margin: 1% 15% 1% 15%;
+    border-bottom: 2.5px solid green;
+    margin: 1% 15% 0% 15%;
 }
 
 h1 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 h2 {
     font-size: 16px;
     font-style: italic;
     text-align: center;
+    margin-bottom: 0;
+    font-weight: normal;
 }
 
 .icecream {
@@ -31,24 +37,22 @@ h2 {
 }
 
 .AboutMe {
-    border: 5px solid rgb(187, 0, 0);
-    padding: 10px;
-    width: 45%;
+    border: 3.5px solid rgb(187, 0, 0);
+    width: 50%;
 }
 
 .ContactMe {
-    border: 5px solid rgb(187, 0, 0);
-    padding: 10px;
-    width: 45%;
+    border: 3.5px solid rgb(187, 0, 0);
+    width: 50%;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic; 
     text-decoration: underline;
     text-underline-position: below; 
     text-align: left;
-    height: 0;
+    height: 1%;
 }
 
 article {
@@ -56,7 +60,7 @@ article {
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic; 
     text-decoration: underline;
     text-underline-position: below; 
@@ -127,5 +131,3 @@ input[type=submit]{
 label {
     margin-left: 13%;
 }
-
-
