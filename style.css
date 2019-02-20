@@ -88,6 +88,13 @@ h4 {
 @media all and (min-width: 600px) {
     .ContactMe {
         flex: 1 0;
+        border-left: 0;
+    }
+}
+
+@media all and (max-width: 599px) {
+    .ContactMe {
+        border-top: 0;
     }
 }
 
